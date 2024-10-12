@@ -1,0 +1,27 @@
+nav{
+    font-family:Inter; /* <weight>: Use a value from 100 to 900 */
+    text-align:right;
+    background-color:black;
+    color:white;
+    margin-top:-1vw;
+    margin-left:-1vw;
+    margin-right:-1vw;
+}
+
+#nav-item-shervin{
+    font-weight: bold;
+    text-align:left;
+    float:left;
+    list-style-type: none;
+    padding-top:1vw;
+}
+
+.nav-item{
+    font-weight: 400;
+    margin: 0 2vw;
+    padding-top:1.5vw;
+    padding-bottom:1.5vw;
+    text-align:right;
+    display:inline-block;
+
+}
