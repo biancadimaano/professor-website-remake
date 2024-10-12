@@ -1,10 +1,14 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+
 nav{
     font-family:Inter; /* <weight>: Use a value from 100 to 900 */
     text-align:right;
     background-color:black;
     color:white;
     white-space: nowrap;
-    position:relative;
 }
 
 #nav-item-shervin{
