@@ -16,6 +16,7 @@ nav{
     max-width:90vw;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px 0px 10px 0px;
 }
 
 #nav-item-shervin{
@@ -34,5 +35,4 @@ nav{
     margin-bottom:30px;
     text-align:right;
     display:inline-block;
-
 }
