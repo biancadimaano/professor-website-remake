@@ -42,7 +42,8 @@ header{
 }
 
 #header-headshot{
-    width:32vw;
-    height:36vw;
+    width:36vw;
+    height:40vw;
     object-fit:cover;
+    margin: -16px 0 0 -8vw;
 }
