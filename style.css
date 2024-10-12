@@ -39,23 +39,26 @@ header{
     max-width:90vw;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 
 #header-headshot{
-    width:35%;
+    width:800px;
     height:auto;
     object-fit:cover;
     margin: -16px;
-    position: absolute;
-    left: 0;
+    float:left;
+    position:relative;
+    left:-125px;
 }
 
 #name-and-titles{
-    padding: 100px;
+    padding:100px;
+    margin: 0 0 0 40%;
 }
 
 h1{
     font-family:Inter;
-    font-size:5vw;
+    font-size:96px;
     float:right;
 }
