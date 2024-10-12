@@ -50,5 +50,7 @@ header{
 }
 
 h1{
-    float:right;
+    font-family:Inter;
+    font-size:5em;
+    display:inline;
 }
