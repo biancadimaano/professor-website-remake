@@ -40,3 +40,9 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
+
+#header-headshot{
+    width:32vw;
+    height:36vw;
+    object-fit:cover;
+}
