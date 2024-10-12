@@ -42,15 +42,20 @@ header{
 }
 
 #header-headshot{
-    width:36vw;
-    height:40vw;
+    width:35%;
+    height:auto;
     object-fit:cover;
-    margin: -16px 0 0 -8vw;
-    float:left;
+    margin: -16px;
+    position: absolute;
+    left: 0;
+}
+
+#name-and-titles{
+    padding: 100px;
 }
 
 h1{
     font-family:Inter;
-    font-size:5em;
-    display:inline;
+    font-size:5vw;
+    float:right;
 }
