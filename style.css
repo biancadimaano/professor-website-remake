@@ -36,29 +36,26 @@ nav{
 }
 
 header{
-    max-width:90vw;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
 #header-headshot{
-    width:800px;
-    height:auto;
+    width:36vw;
+    height:45vw;
     object-fit:cover;
-    margin: -16px;
+    margin: -16px 0 0 -40px;
     float:left;
-    position:relative;
-    left:-125px;
 }
 
 #name-and-titles{
-    padding:100px;
-    margin: 0 0 0 40%;
+    margin: 0 15vw 0 0;
+    padding: 100px 0 0 0;
 }
 
 h1{
     font-family:Inter;
-    font-size:96px;
+    font-size:5vw;
     float:right;
 }
