@@ -175,8 +175,12 @@ main>p{
     margin-bottom:-0.5vw;
 }
 
-main>#ml-assisted-measurements,#previous-courses,#previous-research-projects{
+main>#ml-assisted-measurements,#previous-courses,#previous-research-projects,#past-activities{
     margin-bottom: 3vw;
+}
+
+main>#activities-institutional,#activities-editorial-board,#activities-conference-organizing,#activities-technical-societies{
+    margin-bottom: 2vw;
 }
 
 main>#current-research-projects,#previous-research-projects,#previous-courses{
