@@ -94,18 +94,18 @@ h2{
     overflow-wrap: break-word;
 }
 
-
-.header-text{
+#name-and-titles>p{
     font-size:calc(1vw + 5px);
     margin: 8vw 0 0 0;
 }
 
-main{
+#research-funding{
     background-color:#E7E7E7;
     margin: -55px 0 0 0;
 }
 
-.content-section{
+.research-funding-text{
+    background-color:#E7E7E7;
     max-width: 90%;
     margin-left:auto;
     margin-right:auto;
@@ -117,5 +117,9 @@ h3{
     text-align:center;
     position:relative;
     z-index: 100;
+}
 
+.research-funding-text>p{
+    text-align:center;
+    font-size:calc(1vw + 5px);
 }
