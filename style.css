@@ -1,3 +1,22 @@
+::-webkit-scrollbar {
+    width: 12px; 
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0e1111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border: 2px solid #0e1111;
+    border-radius: 10px;    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(196, 196, 196);
+}
+
 html, body{
     margin:0;
     padding:0;
@@ -10,6 +29,7 @@ nav{
     text-align:right;
     white-space: nowrap;
     margin-top:-20px;
+    overflow-x: auto;
 }
 
 #navigation{
@@ -17,6 +37,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
     padding: 20px 0px 10px 0px;
+
 }
 
 #nav-item-shervin{
@@ -25,6 +46,8 @@ nav{
     text-align:left;
     float:left;
     list-style-type: none;
+    margin: 0 10vw 0 0;
+    padding: 5px 0 0 0;
 }
 
 .nav-item{
@@ -47,7 +70,7 @@ header{
     width:35vw;
     height:auto;
     object-fit:cover;
-    margin: -32px 0 0 -40px;
+    margin: -16px 0 0 -40px;
 }
 
 #name-and-titles{
@@ -58,7 +81,7 @@ header{
 
 h1{
     font-family:Inter;
-    font-size:calc(10px + 5vw);
+    font-size:calc(5vw + 10px);
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
@@ -67,8 +90,15 @@ h2{
     font-family:Inter;
     font-weight:normal;
     font-style:italic;
-    font-size:calc(1vw + 10px);
-    margin: -3vw 0 0 0;
+    font-size:calc(1vw + 15px);
+    margin: -4vw 0 0 0;
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+
+
+.header-text{
+    font-family:Inter;
+    font-size:calc(1vw + 5px);
+    margin: 8vw 0 0 0;
 }
