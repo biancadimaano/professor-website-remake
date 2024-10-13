@@ -33,29 +33,42 @@ nav{
     padding: 30px 30px 30px 30px;
     text-align:right;
     display:inline-block;
+    
 }
 
 header{
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: flex; 
+    align-items: flex-start;
 }
 
 #header-headshot{
-    width:36vw;
-    height:45vw;
+    width:35vw;
+    height:auto;
     object-fit:cover;
-    margin: -16px 0 0 -40px;
-    float:left;
+    margin: -32px 0 0 -40px;
 }
 
 #name-and-titles{
-    margin: 0 15vw 0 0;
-    padding: 100px 0 0 0;
+    padding: 3vw 0 0 8vw;
+    max-width: calc(100% - 30vw - 300px); /* Ensures word wrap fits within available space */
+    overflow-wrap: break-word;
 }
 
 h1{
     font-family:Inter;
-    font-size:5vw;
-    float:right;
+    font-size:calc(10px + 5vw);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h2{
+    font-family:Inter;
+    font-weight:normal;
+    font-style:italic;
+    font-size:calc(1vw + 10px);
+    margin: -3vw 0 0 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
