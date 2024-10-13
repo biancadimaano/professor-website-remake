@@ -165,7 +165,7 @@ h3{
     margin: 3vw -10vw 0 0;
 }
 
-#about>#header-alumnus{
+#about>#header-alumnus,#header-profiles{
     clear:both;
     text-align:left;
     margin: -1.5vw 0 0 0;
