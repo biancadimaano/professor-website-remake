@@ -163,10 +163,28 @@ main{
     padding:0;
 }
 
-main>p{
+main>p,#ml-assisted-measurements{   
     font-size:calc(0.5vw + 10px);
+    line-height:calc(0.5vw + 20px);
     text-align:left;
     word-wrap:break-word;
+}
+
+main>p{
+    margin-bottom:-0.5vw;
+}
+
+main>#ml-assisted-measurements{
+    margin-bottom: 3vw;
+}
+
+.ml-assisted-measurements-title{
+    list-style-type:square;
+}
+
+.ml-assisted-measurements-item{
+    list-style-type: none;
+    padding: 0 0 20px 0;
 }
 
 #name-and-titles>p{
@@ -192,6 +210,13 @@ h3{
     text-align:left;
     position:relative;
     z-index: 100;
+}
+
+h4{
+    font-size:calc(1vw + 10px);
+    font-weight:normal;
+    font-style:italic;
+    margin: -0.5vw 0 -1vw 0;
 }
 
 #research-funding h3{
