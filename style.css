@@ -175,11 +175,11 @@ main>p{
     margin-bottom:-0.5vw;
 }
 
-main>#ml-assisted-measurements{
+main>#ml-assisted-measurements,#previous-courses,#previous-research-projects{
     margin-bottom: 3vw;
 }
 
-main>#current-research-projects,#previous-research-projects{
+main>#current-research-projects,#previous-research-projects,#previous-courses{
     font-size:calc(0.5vw + 5px);
     line-height:calc(0.5vw + 10px);
     text-align:left;
@@ -195,12 +195,8 @@ main>#current-research-projects,#previous-research-projects{
     padding: 0 0 20px 0;
 }
 
-#current-research-projects>.list-item-content{
+#current-research-projects>.list-item-content,#previous-research-projects>.list-item-content,#previous-courses>.list-item-content{
     padding: 0 0 7px 0;
-}
-
-#previous-research-projects>.list-item-content{
-    padding: 0 0 5px 0;
 }
 
 #name-and-titles>p{
