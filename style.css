@@ -170,3 +170,34 @@ h3{
     text-align:left;
     margin: -1.5vw 0 0 0;
 }
+
+footer{
+    background-color:#0e1111;
+    color:white;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 20px 0 80px 0;
+    
+}
+
+#footer-content{
+    max-width:90%;
+    margin: 0 auto;
+    padding: 20px 0px 10px 40px;
+}
+
+#footer-content>p{
+    float:left;
+    text-align:left;
+}
+
+.text-right-aligned{
+    float:right;
+}
+
+.text-center-aligned{
+    font-size:1.75em;
+    position:relative;
+    left:calc(50% - 5vw);
+    top:60px;
+}
