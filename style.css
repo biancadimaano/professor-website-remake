@@ -101,6 +101,12 @@ header{
     align-items: flex-start;
 }
 
+.non-homepage-header{
+    max-width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 #header-headshot{
     width:35vw;
     height:auto;
@@ -148,7 +154,7 @@ h2{
 
 h3{
     font-size:calc(1vw + 15px);
-    margin: 3vw 0 -1vw 0;
+    margin: 3vw 0 3vw 0;
     text-align:left;
     position:relative;
     z-index: 100;
@@ -198,7 +204,7 @@ h3{
     font-size:calc(0.5vw + 10px);
     text-align:left;
     word-wrap:break-word;
-    margin: 3vw 0 0 0;
+    margin: 0 0 0 0;
     width:57vw;
     align-items: center;
 }
