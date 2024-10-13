@@ -93,7 +93,6 @@ nav{
     
 }
 
-
 header{
     margin-left: auto;
     margin-right: auto;
@@ -103,8 +102,16 @@ header{
 
 .non-homepage-header{
     max-width: 90%;
+    width: 100%;
     margin-left:auto;
     margin-right:auto;
+}
+
+.non-homepage-header h3{
+    margin-left:0;
+    margin-right:0;
+    text-align:left;
+
 }
 
 #header-headshot{
@@ -133,6 +140,30 @@ h2{
     margin: -4vw 0 0 0;
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+
+main{
+    max-width: 90%;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    flex:1;
+    padding:0;
+}
+
+main>p{
+    font-size:calc(0.5vw + 10px);
+    text-align:left;
+    word-wrap:break-word;
 }
 
 #name-and-titles>p{
