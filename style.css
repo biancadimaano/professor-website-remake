@@ -214,7 +214,7 @@ main>#current-research-projects,#previous-research-projects,#previous-courses,#f
     word-wrap:break-word;
 }
 
-.list-item-title,#email-policy-list>.list-item-content{
+.list-item-title,#email-policy-list>.list-item-content,#journal-guest-editor>.list-item-content{
     list-style-type:square;
 }
 
@@ -494,6 +494,21 @@ h4{
     margin-bottom:-8vw;
     position:relative;
     top:-2vw;
+}
+
+.university-of-ottawa-logo{
+    height:6.5vw !important;
+    padding-top:2.5vw;
+}
+
+.razi-high-school-logo{
+    height:4.5vw !important;
+    padding-bottom:1vw;
+}
+
+.nicolaus-cusanus-gym-logo{
+    height:5vw !important;
+    padding-bottom:0.75vw;
 }
 
 #profiles>h3{
