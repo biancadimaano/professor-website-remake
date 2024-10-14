@@ -324,14 +324,14 @@ h4{
 .private-sector-logos-sliding,.public-sector-logos-sliding{
     display: flex;
     white-space: nowrap;
-    animation: 90s sliding-logos infinite linear;
+    animation: 60s sliding-logos infinite linear;
     margin-bottom: 3vw;
 }
 
 .private-sector-logos-sliding.reverse {
     display: flex;
     white-space: nowrap;
-    animation: 90s reverse-sliding-logos infinite linear;
+    animation: 60s reverse-sliding-logos infinite linear;
 }
 
 .private-sector-logos-sliding img,.private-sector-logos-sliding-reverse img,.public-sector-logos img{
@@ -360,6 +360,58 @@ h4{
     to {
         transform: translateX(0);
     }
+}
+
+.cisco-logo{
+    height:10vw !important;
+    position:relative;
+    bottom:3.5vw;
+}
+
+.cae-logo{
+    height:8vw !important;
+    position:relative;
+    bottom:3.5vw;
+}
+
+.nuraleve-logo{
+    height:5vw !important;
+    position:relative;
+    bottom:1.5vw;
+}
+
+.cognivue-logo{
+    height:5vw !important;
+    position:relative;
+    bottom:1vw;
+}
+
+.huawei-logo{
+    height:8vw !important;
+    position:relative;
+    bottom:2.5vw;
+}
+
+.teledyne-logo{
+    height:8vw !important;
+    position:relative;
+    bottom:2.5vw;
+}
+
+.ibm-logo{
+    height:5vw !important;
+    position:relative;
+    bottom:1.5vw;
+}
+
+.dbox-logo{
+    height:2.5vw !important;
+}
+
+.konica-minolta-logo{
+    height:6vw !important;
+    position:relative;
+    bottom:2.5vw;
 }
 
 .bio-background{
