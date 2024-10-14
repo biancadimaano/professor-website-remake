@@ -96,12 +96,15 @@ nav{
 
 
 header{
-    background-color:#484F62;
-    color:white;
     display: flex; 
     align-items: flex-start;
     overflow:hidden;
     z-index:0;
+}
+
+#homepage-header{
+    background-color:#484F62;
+    color:white;
 }
 
 .non-homepage-header{
@@ -227,7 +230,14 @@ main>#current-research-projects,#previous-research-projects,#previous-courses,#f
     background-color:white;
     margin-top:calc(-3vw - 20px);
     z-index:1;
-    margin-bottom:6vw;
+    margin-bottom:3vw;
+}
+
+#research-funding hr{
+    color:#484F62;
+    border:1px solid;
+    margin-top:2vw;
+    margin-bottom:2vw;
 }
 
 .research-funding-text{
@@ -254,12 +264,13 @@ h4{
 
 #research-funding h3{
     font-size:calc(1vw + 15px);
-    margin: 3vw 0 -1vw 0;
+    margin: 2vw 0 2vw 0;
     padding:2vw 0 1vw 0;
     text-align:center;
 }
 
 .research-funding-text>p{
+    color:#484F62;
     text-align:center;
     font-size:calc(1vw + 5px);
     padding:1vw 0 2vw 0;
@@ -292,14 +303,14 @@ h4{
 .private-sector-logos-sliding,.public-sector-logos-sliding{
     display: flex;
     white-space: nowrap;
-    animation: 35s sliding-logos infinite linear;
+    animation: 90s sliding-logos infinite linear;
     margin-bottom: 3vw;
 }
 
 .private-sector-logos-sliding.reverse {
     display: flex;
     white-space: nowrap;
-    animation: 50s reverse-sliding-logos infinite linear;
+    animation: 90s reverse-sliding-logos infinite linear;
 }
 
 .private-sector-logos-sliding img,.private-sector-logos-sliding-reverse img,.public-sector-logos img{
