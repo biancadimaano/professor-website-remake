@@ -312,7 +312,6 @@ h4{
     animation-play-state: paused;
 }
 
-
 @keyframes sliding-logos {
     from {
         transform: translateX(0);
@@ -330,7 +329,6 @@ h4{
         transform: translateX(0);
     }
 }
-
 
 .bio-background{
     background-color:#484F62;
@@ -392,6 +390,18 @@ h4{
     clear:both;
     text-align:left;
     margin: -1.5vw 0 0 0;
+}
+
+#alumnus-logos{
+    display: flex;
+    white-space: nowrap;
+    margin-bottom:3vw;
+}
+
+
+#alumnus-logos img{
+    height: 6vw;
+    width: auto;
 }
 
 footer{
