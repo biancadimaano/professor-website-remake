@@ -180,6 +180,13 @@ main>p,#ml-assisted-measurements,#designations-awards-honours{
     word-wrap:break-word;
 }
 
+main>#email-policy-list{
+    font-size:calc(0.5vw + 7px);
+    line-height:calc(0.5vw + 14px);
+    text-align:left;
+    word-wrap:break-word;
+}
+
 #designations-awards-honours{
     margin-top:-1vw;
 }
@@ -207,7 +214,7 @@ main>#current-research-projects,#previous-research-projects,#previous-courses,#f
     word-wrap:break-word;
 }
 
-.list-item-title{
+.list-item-title,#email-policy-list>.list-item-content{
     list-style-type:square;
 }
 
@@ -495,6 +502,15 @@ h4{
     font-style:italic;
     font-size: calc(0.5vw + 10px); /* Adjust font size as needed */
     margin-bottom: 5px; /* Space between caption and image */
+}
+
+#email-policy>p{
+    margin-bottom:1.5vw;
+}
+
+#email-policy{
+    margin-top:-2vw;
+    margin-bottom:3vw;
 }
 
 footer{
