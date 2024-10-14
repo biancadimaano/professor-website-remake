@@ -164,26 +164,34 @@ main{
     padding:0;
 }
 
-main>p,#ml-assisted-measurements{   
+main>p,#ml-assisted-measurements,#designations-awards-honours{   
     font-size:calc(0.5vw + 10px);
     line-height:calc(0.5vw + 20px);
     text-align:left;
     word-wrap:break-word;
 }
 
+#designations-awards-honours{
+    margin-top:-1vw;
+}
+
+#full-designations-awards-honours{
+    margin-top:3vw;
+}
+
 main>p{
     margin-bottom:-0.5vw;
 }
 
-main>#ml-assisted-measurements,#previous-courses,#previous-research-projects,#past-activities{
+main>#ml-assisted-measurements,#previous-courses,#previous-research-projects,#past-activities,#full-designations-awards-honours{
     margin-bottom: 3vw;
 }
 
-main>#activities-institutional,#activities-editorial-board,#activities-conference-organizing,#activities-technical-societies{
+main>#activities-institutional,#activities-editorial-board,#activities-conference-organizing,#activities-technical-societies,#designations-awards-honours{
     margin-bottom: 2vw;
 }
 
-main>#current-research-projects,#previous-research-projects,#previous-courses{
+main>#current-research-projects,#previous-research-projects,#previous-courses,#full-designations-awards-honours{
     font-size:calc(0.5vw + 5px);
     line-height:calc(0.5vw + 10px);
     text-align:left;
@@ -197,6 +205,10 @@ main>#current-research-projects,#previous-research-projects,#previous-courses{
 .list-item-content{
     list-style-type: none;
     padding: 0 0 20px 0;
+}
+
+#full-designations-awards-honours>.list-item-title{
+    padding: 0 0 5px 0;
 }
 
 #current-research-projects>.list-item-content,#previous-research-projects>.list-item-content,#previous-courses>.list-item-content{
