@@ -264,18 +264,31 @@ h4{
     padding:1vw 0 2vw 0;
 }
 
-#about{
+.bio-background{
+    background-color:#484F62;
+    width:100%;
+    padding:20px 0;
+}
+
+#about,#alumnus,#profiles{
+    line-height:calc(0.5vw + 20px);
     display: flex; 
     max-width:80%;
+    width:100%;
     flex-direction: column;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom:6vw;
+    margin:0 auto 6vw auto;
+}
+
+#about{
+    color:white;
 }
 
 #discover-lab-img{
     width:100%;
     margin-top:-1.5vw;
+    margin-bottom:calc(-0.1vw - 10px);
 }
 
 #about>h3{
