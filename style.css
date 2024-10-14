@@ -213,7 +213,9 @@ main>#current-research-projects,#previous-research-projects,#previous-courses,#f
     padding: 0 0 20px 0;
 }
 
-#full-designations-awards-honours>.list-item-title{
+#full-designations-awards-honours>.list-item-title,#journal-editorial-board>.list-item-content,
+#journal-guest-editor>.list-item-content,#conference-organization>.list-item-content,#conference-steering-committee>.list-item-content,
+#technical-program-committee>.list-item-content{
     padding: 0 0 5px 0;
 }
 
@@ -260,6 +262,15 @@ h4{
     font-weight:normal;
     font-style:italic;
     margin: -0.5vw 0 -1vw 0;
+}
+
+#past-activities>h4{
+    margin-top:2vw;
+    margin-bottom:1vw;
+}
+
+#past-activities>h3{
+    margin-bottom:-0.25vw;
 }
 
 #research-funding h3{
