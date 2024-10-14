@@ -227,6 +227,7 @@ main>#current-research-projects,#previous-research-projects,#previous-courses,#f
     background-color:white;
     margin-top:calc(-3vw - 20px);
     z-index:1;
+    margin-bottom:6vw;
 }
 
 .research-funding-text{
@@ -264,12 +265,12 @@ h4{
     padding:1vw 0 2vw 0;
 }
 
-.private-sector-logos {
+.private-sector-logos,.public-sector-logos{
     position: relative;
     overflow: hidden;
 }
 
-.private-sector-logos:before,.private-sector-logos:after{
+.private-sector-logos:before,.private-sector-logos:after,.public-sector-logos:before,.public-sector-logos:after{
     position:absolute;
     top:0;
     width:8vw;
@@ -278,17 +279,17 @@ h4{
     z-index:2;
 }
 
-.private-sector-logos:before{
+.private-sector-logos:before,.public-sector-logos:before{
     left:0;
     background:linear-gradient(to left,rgba(255,255,255,0),white);
 }
 
-.private-sector-logos:after{
+.private-sector-logos:after,.public-sector-logos:after{
     right:0;
     background:linear-gradient(to right,rgba(255,255,255,0),white);
 }
 
-.private-sector-logos-sliding {
+.private-sector-logos-sliding,.public-sector-logos-sliding{
     display: flex;
     white-space: nowrap;
     animation: 35s sliding-logos infinite linear;
@@ -298,18 +299,19 @@ h4{
 .private-sector-logos-sliding.reverse {
     display: flex;
     white-space: nowrap;
-    animation: 35s reverse-sliding-logos infinite linear;
+    animation: 50s reverse-sliding-logos infinite linear;
 }
 
-.private-sector-logos-sliding img,.private-sector-logos-sliding-reverse img{
+.private-sector-logos-sliding img,.private-sector-logos-sliding-reverse img,.public-sector-logos img{
     height: 3vw;
     width: auto;
     padding: 0 4vw;
 }
 
-.private-sector-logos-sliding:hover,.private-sector-logos-sliding-reverse:hover{
+.private-sector-logos-sliding:hover,.private-sector-logos-sliding-reverse:hover,.public-sector-logos-sliding:hover{
     animation-play-state: paused;
 }
+
 
 @keyframes sliding-logos {
     from {
