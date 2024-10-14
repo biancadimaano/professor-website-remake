@@ -264,6 +264,49 @@ h4{
     padding:1vw 0 2vw 0;
 }
 
+/*             <div class="private-sector-logos">
+                <div class="private-sector-logos-sliding"> */
+
+.private-sector-logos {
+    overflow: hidden;
+}
+
+.private-sector-logos-sliding {
+    display: flex;
+    white-space: nowrap;
+    animation: 40s sliding-logos infinite linear;
+    margin-bottom: 3vw;
+}
+
+.private-sector-logos-sliding.reverse {
+    animation: 40s reverse-sliding-logos infinite linear;
+}
+
+.private-sector-logos-sliding img {
+    height: 3vw;
+    width: auto;
+    padding: 0 4vw;
+}
+
+@keyframes sliding-logos {
+    from {
+        transform: translateX(50%);
+    }
+    to {
+        transform: translateX(calc(-100% - ((3vw + 8vw) * 9))); /* Adjust for half of the images */
+    }
+}
+
+@keyframes reverse-sliding-logos {
+    from {
+        transform: translateX(-150%);
+    }
+    to {
+        transform: translateX(calc(100% + ((3vw + 8vw) * 9)));
+    }
+}
+
+
 .bio-background{
     background-color:#484F62;
     width:100%;
