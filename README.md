@@ -1,2 +1,2 @@
-# CMPT272Assignment3
-CMPT272 Assignment 3 - Remake the professor's 2008 webpage
+# Professor Website Remake
+SFU CMPT272 Assignment - Remake the Prof. Shervin Shirmohammadi 2008 webpage using HTML/CSS
